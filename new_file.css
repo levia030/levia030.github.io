@@ -1,0 +1,52 @@
+.top
+{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/2.jpg);
+	background-size: cover;
+}
+.bottom
+{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/3.jpg);
+	background-size: cover;
+}
+.top_nav
+{
+	width: 100vw;
+	height: 100px;
+	background: rgba(0, 0, 0, 0.3);
+}
+.top_nav h1
+{
+	height: 100px;
+	margin-left: 100px;
+	float: left;
+	color: gold;
+}
+.top_nav ul
+{
+	width: 1600px;
+	height: 100px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+.top_nav ul li
+{
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	float: left;
+	font-size: 24px;
+	color: white;
+	list-style: none;
+	text-align: center;
+	margin-left: 50px;
+}
+.top_nav ul li:hover
+{
+	text-shadow: 0px 0px 5px gold;
+	border-bottom: 3px solid white;
+}
